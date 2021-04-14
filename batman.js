@@ -13,7 +13,7 @@ class Batman{
         push();
         translate(this.body.position.x, this.body.position.y);
         imageMode(CENTER);
-        image(this.image, 0, 0, this.radius, this.radius);
+        image(this.image, 0, 0, this.radius-100, this.radius);
         this.visiblity = 0;
         pop();
         if(keyDown(RIGHT_ARROW)){
